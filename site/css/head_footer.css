@@ -1,9 +1,10 @@
-:root {
-	--primary: #52FEDF;
-	--secondary: #3EE83F;
-	--hover: #87FF57;
-	--active: #39E899;
-	--alternative: #5CFF89;
+:root { /* ReplaceThisForPersonalUse */
+	--primary: #FD57E3;
+	--secondary: #B750FF;
+	--hover: #633FE8;
+	--active: #5254FF;
+	--alternative: #C13EE8;
+	--text-color: #F1F1F1;
 }
 
 .navbar {
@@ -46,7 +47,7 @@
 }
 
 .navbar ul a:hover {
-   color:#a8a8a8;
+   color: var(--hover);
 }
 
 .close-nav {
@@ -63,11 +64,11 @@
 	padding-top: 5px !important;
    padding: 10px;
    border-radius: 3px;
-   color:#444444;
+   color: #444444;
 }
 
 .close-nav button:hover {
-   color:#a8a8a8;
+   color: Var(--hover);
    background:white;
 }
 
@@ -95,11 +96,11 @@
 }
 
 .menu-bar button:hover {
-   background:white;
+   background: white;
 }
 
 .menu-bar button:hover i {
-   border-color:#222222;
+   border-color: #222222;
 }
 
 .container {
@@ -148,7 +149,7 @@
 }
 
 .footer-col a:hover {
-   color:#a8a8a8;
+   color: var(--hover);
 }
 
 .copyright {
